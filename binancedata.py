@@ -16,4 +16,3 @@ data = pd.DataFrame(klines,
 data['timestamp'] = pd.to_datetime(data['timestamp'], unit='ms')
 
 print(data)
-

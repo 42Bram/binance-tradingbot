@@ -22,4 +22,3 @@ def limit_sell(price):
         quantity= int(vet),
         price= price)
     print(order)
-

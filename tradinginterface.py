@@ -51,4 +51,3 @@ print(f"VET: {client.get_asset_balance(asset='VET')}")
 print(f"USD: {client.get_asset_balance(asset='USDT')}")
 
 
-

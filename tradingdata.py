@@ -38,4 +38,3 @@ def trading_data():
     direction = current.iloc[-1]['direction']
     data = {"MA_ratio": MA_ratio, "direction": direction, "close_price": close_price}
     return (data)
-
